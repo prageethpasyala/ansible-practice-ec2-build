@@ -38,6 +38,7 @@ data "aws_ami" "my_aws_ami" {
   filter {
     name   = "name"
     values = ["amzn2-ami-kernel-*"]
+    
   }
 }
 
